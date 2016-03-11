@@ -34,7 +34,6 @@ def main():
 
                 currentTime = datetime.datetime.strftime(datetime.datetime.now(), "%H:%M")
                 stringData = currentTime
-# "%s%s %s%sF %s%s%%" %(alphasign.colors.DIM_RED, currentTime, alphasign.colors.YELLOW, currTemp, alphasign.colors.ORANGE, humidity)
 
                 timeString.data = currentTime
                 tempString.data = currTemp
