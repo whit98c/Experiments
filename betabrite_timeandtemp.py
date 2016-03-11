@@ -26,7 +26,7 @@ def main():
 
         while True:
 
-                owm = pyowm.OWM('163f58185b28688d805dae724b718025')
+                owm = pyowm.OWM('{key}')
                 observation = owm.weather_at_place('Rockville,MD')
                 w = observation.get_weather()
                 currTemp = int(w.get_temperature('fahrenheit').get('temp'))
