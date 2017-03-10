@@ -2,7 +2,6 @@
 
 import serial
 import datetime
-import pymssql
 import time
 import syslog
 import traceback
